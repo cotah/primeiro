@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+}
+
+#titulo-menusuperior {
+    font-family: "Inter", sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    padding-top: 200px;
+    margin-left: 100px ;
+}
+
+#texto-menusuperior {
+    font-family: "Inter", sans-serif;
+    margin-left: 100px;
+    margin-top: 25px;
+    padding-bottom: 120px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#menusuperior {
+    background-color: #303030;
+    color: white;
+}
+
+#menuinformacional{
+    background-color: #f9f9f9;
+    display:grid;
+    gap: 20px;
+    text-align: center;
+    padding: 60px;
+    grid-template-columns: repeat(3,1fr)
+    }
+
+.item{
+    margin-left: 200px;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    }
+
+    .h1 {
+        margin: 0;
+    }
+
+    .p {
+        margin: 0;
+    }
+
+    #secaodefotos{
+        display: grid;
+        grid-auto-flow: column;
+        columns: auto;
+        background-color: white;
+        padding-bottom: 3%;
+    }
+
+    #titulo-foto{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    margin-left: 100px ;
+    padding-top: 20%;
+        }
+
+    #texto-foto{
+        font-family: "Inter", sans-serif;
+        font-weight: 300;
+        font-size: 24px;
+        margin-left: 100px;
+    }
+
+    #foto-casa{
+        margin-right: -180px;
+        padding-top: 9%;
+        }
+
+    #formulario{
+        background-color: #303030 ;
+        margin-top: 75px;
+        padding: 75px;
+        text-align: center;
+    }
+
+    #titulo-formulario{
+        color: white;
+        font-family: "Inter", sans-serif;
+        font-weight: 700;
+        font-size: 32px ;
+    }
+
+    input{
+    Width: 508px;
+    Height: 72px;
+    background-color: #FFFFFF ;
+    margin: 15px;
+    border: 0px;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: large;
+    }
+
+    button{
+    background-color: #C07212;
+    Height: 74px;
+    Width: 286px;
+    color: #EAECE5;
+    border: 0px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    font-size: x-large;
+    cursor: pointer;
+    margin-top: 10px;
+    }
+
+    button:hover{
+        background-color: #8c530e;
+        color: white;
+        transform: rotateY(-7px);
+        box-shadow: 0px 15px 20px #3d230270;
+        transition-duration: 0.3s;
+    }
